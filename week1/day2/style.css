@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+text-transform: capitalize;
+height: 100vh;
+}
+.title-form{
+    color:#0061f2 ;
+    line-height: 4;
+}
+input {
+    width: 300px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border: 1px solid #0061f2;
+
+  }
+  label{
+    color: white;
+  }
+  .nav-bar{
+    padding: 20px 0 20px 0;
+
+  }
+  .nav-lists{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  /* justify-content: space-around; */
+ 
+    
+  }
+  .nav-list{
+    list-style: none;
+   
+   
+  }
+  .nav-list a{
+    text-decoration: none;
+    color:#0000008c;
+    margin-right: 45px;
+    font-size:1rem;
+  }
+   .logo a{
+    text-decoration: none;
+    color:black;
+    font-size:2.5rem;
+  }
+   .logo{
+    margin-right: 200px;
+    list-style: none;
+  }
+ .buy{
+    margin-left: 150px;
+    list-style: none;
+    border: 1px solid #0061f2;
+    background-color: blue;
+   
+    padding:14px 18px;
+    border-radius: 5px;
+  }
+  .buy a{
+    text-decoration: none;
+    color:white;
+   
+  }
+  .cards{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .section-1{
+    background-color: #6900c7;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ 
+  
+
+  }
+  .section-2{
+    height:370px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ 
+
+  }
+  .card-right{
+    margin-right: 40px;
+  }
+ .text-1{
+color: white;
+line-height: 1.6;
+  }
+  .title-1 {
+    color: white;
+    line-height: 1.6;
+  }
+  .card-left{
+    background-color:white;
+    width: 50%;
+    padding: 1.35rem;
+    border-radius: 15px;
+    margin:0 auto;
+  }
+ .download{
+    background-color: #0061f2;
+    border-radius: 5px;
+    color:white ;
+    border: 1px solid #0061f2;
+ }
+/* SECTION-2 */
+.text-2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.text-2 h3{
+    margin-right: 15px;
+    color: #a7aeb8;
+} 
+.title- h3{
+    margin-right: 45px;
+    color: #a7aeb8;
+    height: 270px;
+    font-size: 17.6px;
+
+}
